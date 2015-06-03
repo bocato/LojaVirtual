@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>Login</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>Logout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Logout</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CadProd</servlet-name>
+        <servlet-class>CadProd</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CadProd</servlet-name>
+        <url-pattern>/cadProd</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CadCli</servlet-name>
+        <servlet-class>CadCli</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CadCli</servlet-name>
+        <url-pattern>/cadCli</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>BuyProd</servlet-name>
+        <servlet-class>BuyProd</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BuyProd</servlet-name>
+        <url-pattern>/buyProd</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DelProd</servlet-name>
+        <servlet-class>DelProd</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DelProd</servlet-name>
+        <url-pattern>/delProd</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>BuyCart</servlet-name>
+        <servlet-class>BuyCart</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BuyCart</servlet-name>
+        <url-pattern>/buyCart</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Admin</servlet-name>
+        <jsp-file>/jsp/admin.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Admin</servlet-name>
+        <url-pattern>/admin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Client</servlet-name>
+        <jsp-file>/jsp/client.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Client</servlet-name>
+        <url-pattern>/client</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Cart</servlet-name>
+        <jsp-file>/jsp/cart.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Cart</servlet-name>
+        <url-pattern>/cart</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PreBuyCart</servlet-name>
+        <jsp-file>/jsp/preBuyCart.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PreBuyCart</servlet-name>
+        <url-pattern>/preBuyCart</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Ops</servlet-name>
+        <jsp-file>/jsp/ops.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Ops</servlet-name>
+        <url-pattern>/ops</url-pattern>
+    </servlet-mapping>
+
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>jsp/index.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
