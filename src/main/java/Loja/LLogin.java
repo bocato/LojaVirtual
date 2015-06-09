@@ -6,9 +6,6 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.logging.Logger;
 
-/**
- * Created by gap on 02/06/15.
- */
 public class LLogin {
 
     private final static Logger LOGGER = Logger.getLogger(LLogin.class.getName());

@@ -8,9 +8,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
 
-/**
- * Created by gap on 02/06/15.
- */
 public class LProd {
 
     private final static Logger LOGGER = Logger.getLogger(LLogin.class.getName());

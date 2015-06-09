@@ -6,9 +6,6 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.logging.Logger;
 
-/**
- * Created by gap on 01/06/15.
- */
 public class Login extends HttpServlet {
 
     private final static Logger LOGGER = Logger.getLogger(Login.class.getName());

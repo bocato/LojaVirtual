@@ -1,8 +1,5 @@
 package Loja;
 
-/**
- * Created by gap on 02/06/15.
- */
 public class Produto {
 
     private Integer id;

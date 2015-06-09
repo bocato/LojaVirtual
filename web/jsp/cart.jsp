@@ -2,13 +2,6 @@
 <%@ page import="Loja.Produto" %>
 <%@ page import="java.util.List" %>
 <%@ page import="Loja.LLogin" %>
-<%--
-  Created by IntelliJ IDEA.
-  User: gap
-  Date: 02/06/15
-  Time: 22:03
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
   HttpSession sessao = request.getSession();

@@ -1,11 +1,4 @@
 <%@ page import="Loja.LLogin" %>
-<%--
-  Created by IntelliJ IDEA.
-  User: gap
-  Date: 02/06/15
-  Time: 00:05
-  To change this template use File | Settings | File Templates.
---%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%
     HttpSession sessao = request.getSession();
